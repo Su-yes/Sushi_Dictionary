@@ -13,3 +13,20 @@ Innocuous [adj]: not likely to bother or offend anyone; inoffensive.
                : causing no injury; harmless.
                // Small and innocuous looking, the habanero is uncontested as the hottest pepper in the world, the mother of all peppers.
                // Seemingly innocuous at the time, Abdullahi’s statement now feels ominous after details of the bill became public this week. \\
+
+Vacuous [adj]: Lacking content; empty.
+             : Lacking in ideas or intelligence.
+             // Smith speaks with perfect articulation and a vacuous undertone laces her words.
+             // Here comes Clinton Heylin to hew a path through the trash heap of vacuous biographies and inferior works. \\
+
+Cordate [adj]: Shaped like a heart.
+             // A cordate leaf. \\
+
+Recluse [adj]: Marked by withdrawal from society; living in seclusion.
+             : (n) A person who leads a secluded or solitary life.
+             // He was sick of cities and crowds, so he decided to go live by himself in the woods as a recluse.
+             // Although much of the real world has fixated on Dickinson as a recluse, especially in her later years, the show has portrayed her to be someone who does want to be a part of the world. \\
+
+Pejorative [adj]: A word or phrase that has negative connotations or that is intended to disparage or belittle.
+                // It comes as quite a shock to still hear a judge describing a child as "illegitimate," with all the pejorative overtones of that word.
+                // Children born with an extra chromosome 21 are healthy, conspicuously happy and destined to live for many years. But they are not considered, in that pejorative word, 'normal'. \\

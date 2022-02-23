@@ -16,3 +16,6 @@ Stratum:= Working your way out of a social stratum is extremly tough in USA.
 Risqué:= My neighbour was involved in very risque behaviours. 
 Opulent:= He has very opulent lifestyle. 
 Uncouth:= The show was ruined by a bunch of uncouth audience memebers. 
+Vacuous:= Her comments were pretentious and mostly vacuous. 
+Vacuous:= She spoke a lot about him they were mostly vaccous comments. 
+Cordate:= The chocolate box was cordate shaped. 
