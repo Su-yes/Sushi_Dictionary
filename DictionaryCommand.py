@@ -6,6 +6,9 @@ Created on Mon Dec  6 21:40:46 2021
 
 This files containts the functions that can read, search, and print from the dictionary. 
 """
+import random
+import time
+import sys
 
 def read_dict(fname):
     '''This functions reads the existing dictionary text file and creates and python dictionary to be used later.
@@ -92,17 +95,18 @@ def print_word(vocab, sushi_dict):
 
 # =============================================================================
 
-def add_word():
+def add_word(current_dict):
     '''This functions accepts the words, meanings, and examples from the user interactively and returns a list.
     '''
     
-    sushi_dict = {}
+    # sushi_dict = {}
     def_list = []
     eg_list = []
     
     new_wrd = input("Enter a word: ").lstrip().rstrip().lower().capitalize()
-    if new_wrd in sushi_dict:
+    if new_wrd in current_dict:
         print("\nThe word already exists.")
+        return None
     else:
         
         pos = "[" + input("Enter the word's class: ").lstrip().rstrip() + "]"
@@ -167,11 +171,11 @@ def add_word():
                         temp2 = temp2 + "."
                     eg_list.append(temp2)
     
-    def_temp = def_list
-    eg_temp = eg_list
+        def_temp = def_list
+        eg_temp = eg_list
     
-    # sushi_dict[new_wrd] = {'pos':pos,'def':def_temp, 'ex': eg_temp}
-    return [new_wrd, pos, def_temp, eg_temp]
+        # sushi_dict[new_wrd] = {'pos':pos,'def':def_temp, 'ex': eg_temp}
+        return [new_wrd, pos, def_temp, eg_temp]
 
 # =============================================================================
 
@@ -332,3 +336,32 @@ def edit_word(wte, sushi_dict):
     sushi_dict[wte] = {'pos':pos,'def':def_temp, 'ex': eg_temp}
 
 # =============================================================================
+
+def rapid_learn(sushi_dict):
+    '''
+    Prints out provides random word from the dictionary.
+
+    '''
+    return random.choice(list(sushi_dict.keys()))
+
+# =============================================================================
+# Terminal Timer
+
+def terminal_timer(t):
+    
+    for remaining in range(t, 0, -1):
+        sys.stdout.write("\r")
+        sys.stdout.write("{:2d} seconds remaining.".format(remaining)) 
+        sys.stdout.flush()
+        time.sleep(1)
+    
+    sys.stdout.write("\rTimes up!            \n")
+    return True
+
+
+
+
+# =============================================================================
+
+
+

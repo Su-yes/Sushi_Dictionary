@@ -30,3 +30,59 @@ Recluse [adj]: Marked by withdrawal from society; living in seclusion.
 Pejorative [adj]: A word or phrase that has negative connotations or that is intended to disparage or belittle.
                 // It comes as quite a shock to still hear a judge describing a child as "illegitimate," with all the pejorative overtones of that word.
                 // Children born with an extra chromosome 21 are healthy, conspicuously happy and destined to live for many years. But they are not considered, in that pejorative word, 'normal'. \\
+
+Stultify [v]: To have a dulling or inhibiting effect on.
+            : To impair, invalidate, or make ineffective; negate.
+            : To render absurdly or wholly futile or ineffectual, especially by degrading or frustrating means.
+            : To make, or cause to appear, foolish or ridiculous.
+            // It began, for them all, with the urge to seek some form of liberty and escape the stultifying conventions of Regency England.
+            // The government has been stultified by bureaucracy.
+            // The goal is to stimulate, not stultify, productive economic activity—the kind that raises output and justifies increased wages.
+            // The sudden mass switch to virtual forms of working and socializing is expected to jump-start more nuanced investigations into what makes social interaction satisfying--or stultifying. \\
+
+Averse [adj]: Having an active feeling of repugnance,opposition, dislike, or distaste —usually used with to.
+            // I'm not averse to broccoli if it's cooked right.
+            // He seems to be averse to strenuous exercise.
+            // Most people are averse to uncertainty, said Maurice Schweitzer, a behavioral scientist and professor at the Wharton School at the University of Pennsylvania, and the past two years have seen nothing else. \\
+
+Esoteric [adj]: Intended for or likely to be understood by only a small number of people with a specialized knowledge or interest.
+              // He listens to a group of Malaysians playing reedy, plangent music on some esoteric kind of wind instrument.
+              // Even so, these debates extend beyond esoteric squabbles to practical realities. \\
+
+Vehement [adj]: Expressing strong feelings, or shown by strong feelings or great energy or force.
+              : Marked by forceful energy; powerfull.
+              : Deeply felt or forcibly expressed.
+              // Despite vehement opposition from his family, he quit school and became an actor.
+              // They launched a vehement attack on the government's handling of environmental issues.
+              // A vehement wind.
+              // As they shouted and mocked, I wondered how they could have developed such intense, vehement hatred toward people with whom they had had no previous contact. \\
+
+Magnanimous [adj]: Generous in forgiving an insult or injury; free from petty resentfulness or vindictiveness.
+                 : High-minded; noble.
+                 : Proceeding from or revealing generosity or nobility of mind, character, etc.
+                 // To be magnanimous toward one's enemies.
+                 // A just and magnanimous ruler.
+                 // A magnanimous gesture of forgiveness.
+                 // Even Rachel Maddow, who wrote her doctoral thesis on AIDS reform in prisons, seemed surprised by the seemingly magnanimous move.
+                 // Schieffer, by contrast, was more magnanimous and respectful. \\
+
+Vindictive [adj]: Disposed or inclined to revenge; vengeful.
+                : Intended for or involving revenge.
+                // The vindictive mob after Joe Rogan is not really interested in what was said, only in who said it.
+                // A vindictive woman desperate for revenge against the man who loved and left her.
+                // Well, maybe actually waging vendettas is a bad idea, but to be known for your vindictiveness can be a great advantage, for then people will take care not to cross you. And maybe the surest way of acquiring a reputation for vindictiveness is actually to be vindictive. \\
+
+Reverence [n]: A feeling or attitude of deep respect tinged with awe; veneration.
+             : A gesture indicative of deep respect; an obeisance, bow, or curtsy.
+             : The state of being revered.
+             : honor or respect felt or shown; deference.
+             // The national pickle dish, kimchi, is held in such reverence that Seoul boasts a museum devoted entirely to its 160 different varieties.
+             // Reverence for or worship of the dead is found in all societies, because belief in life after death is universal.
+             // He took the command of this small party at once—the little girl and the little boy following him about with great reverence at such times as he condescended to sport with them.
+             // He’s, you know, such an icon in our industry and I have so much reverence for him and so much respect, so it was an honor to work with him. \\
+
+Vivacious [adj]: lively in temper, conduct, or spirit; animated.
+               : In latin, it literally means "Full of life".
+               // She could follow every word that the ramblers uttered. They were talking no secrets. They were merely indulging in the ordinary vivacious chat of relatives who have long been parted in person though not in soul.
+               // An outgoing, vivacious girl who became a successful sales rep.
+               // The poem is a vivacious expression of his love for her. \\

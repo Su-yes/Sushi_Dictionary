@@ -24,6 +24,7 @@ while True:
                 Edit   (E)
                 Search (S)
                 Learn  (L)
+                Rapid  (R)
                 Quit   (Q)
                 
     Enter: ''').lower().lstrip().rstrip()
@@ -31,7 +32,7 @@ while True:
     # Ensure a valid option in entered
     while True:
     
-        if ans in ["a", "e", "s", "l", "q"]:
+        if ans in ["a", "e", "s", "l","r", "q"]:
             break
         else:
             ans = input("Invalid option. Try again. :").lower().lstrip().rstrip()
@@ -55,14 +56,17 @@ while True:
     elif ans == "a":
         
         while True:
-            word_list = add_word()
+            word_list = add_word(sushi_dict)
             
-            # Add to dict.
-            sushi_dict[word_list[0]] = {'pos':word_list[1],'def':word_list[2], 'ex':word_list[3]}
+            if word_list == None:
+                pass
+            else:
+                # Add to dict.
+                sushi_dict[word_list[0]] = {'pos':word_list[1],'def':word_list[2], 'ex':word_list[3]}
             
-            # Write to dict .txt file.
-            write_word(word_list[0], word_list[1], word_list[2], word_list[3], fname)
-            print("\nWord Added!\n")
+                # Write to dict .txt file.
+                write_word(word_list[0], word_list[1], word_list[2], word_list[3], fname)
+                print("\nWord Added!\n")
         
             # keep going with add?
             kgd_ans = input("Add another word? (Y/N): ").lower().lstrip().rstrip()
@@ -99,6 +103,21 @@ while True:
         
     elif ans == "l":
         learn_words(fname_2, sushi_dict)
+        
+    elif ans == "r":
+        
+        print("\n Rapid Quiz Time!!")
+        
+        while True: 
+            
+            # get word to display
+            wtd = rapid_learn(sushi_dict)
+            print(f"\n Word: {wtd}\n")
+            
+            if terminal_timer(2):
+               temp =  input("\n Another word? (Y/N): ")
+               if temp == 'n':
+                    break      
         
     else:
         print("See ya later!")
