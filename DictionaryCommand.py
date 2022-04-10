@@ -358,9 +358,6 @@ def terminal_timer(t):
     sys.stdout.write("\rTimes up!            \n")
     return True
 
-
-
-
 # =============================================================================
 
 

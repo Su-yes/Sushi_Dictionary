@@ -108,17 +108,56 @@ while True:
         
         print("\n Rapid Quiz Time!!")
         
+        already_displayed = []
+        keep_searching = True
+        end_dict = False
+        already_listed_counter = 0
+        
+        # main loop
         while True: 
             
-            # get word to display
-            wtd = rapid_learn(sushi_dict)
-            print(f"\n Word: {wtd}\n")
+            # keep generating until unique word is gnerated. loop 2. 
+            while True:
+                # get word to display
+                wtd = rapid_learn(sushi_dict)
             
-            if terminal_timer(2):
-               temp =  input("\n Another word? (Y/N): ")
-               if temp == 'n':
-                    break      
+                if wtd in already_displayed:
+                    already_listed_counter += 1 
+                    
+                    if already_listed_counter == len(sushi_dict):
+                        print("\n You've reached the end of this dictionary! Good job!")
+                        end_dict = True
+                        
+                else:
+                    # reset it for next loop
+                    already_listed_counter = 0
+                    break # loop 2
+            
+            if end_dict:
+                break # main loop
+            else:
+                print(f"\n Word: {wtd}\n")
+            
+                if terminal_timer(5):
+                   temp =  input("\n Another word? (Y/N): ").lower().lstrip().rstrip()
+                   
+                   # Get a definitive yes or no
+                   if temp != 'y' and temp != 'n':
+                       while True:
+                           ans = input("Try Again! (Y/N):").lower().lstrip().rstrip()
+                           if ans == 'y' or ans == 'n':
+                               temp = ans
+                               break
+                   
+                   if temp == 'n':
+                        break  # main loop
+                        
+                already_displayed.append(wtd)
+        
+        print("\nSee ya next time!")
+        break  # master loop 
+    
         
     else:
-        print("See ya later!")
+        print("\nSee ya later!")
         break
